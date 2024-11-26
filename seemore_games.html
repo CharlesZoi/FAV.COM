@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAV.COM</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Assets/Fav.com_favicon.png">
+    <link rel="shortcut-icon" href="Assets/Fav.com_favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  </head>
+  <body>
+    <nav class="navigation">
+        <a href="main.html" class="logo">
+            <img src="Assets/fav.com-logow.png" alt="logo" />
+        </a>
+    
+        <div class="nav-btns">
+            <div class="userDropdown">
+                <button onclick="userDropDown()" class="userDropbtn">
+                    <i class="fa-solid fa-user"></i>
+                </button>
+    
+                <div id="userDropdown" class="userDropdown-content">
+                    <div class="dropdown-link-box">
+                        <div class="dropdown-links">
+                            <ul>
+                                <li><button><a href="#">Profile</a></li></button>
+                                <li><button><a href="#">Settings</a></li></button>
+                                <li><button id="logoutBtn" onclick="logout()">Logout</button></li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="news-details">
+        <div class="main-news-text">
+      
+          <span class="category">Games</span>
+          <strong>Top Esports and Popular Online Games</strong>
+      
+          <div class="main-news-img">
+            <img src="Assets/esports.jpg">
+          </div>
+          <p>Esports and online games continue to dominate the gaming industry with their massive communities and exciting competitions.</p>
+      
+          <div class="m-news-text">
+            <span class="m-box-details">
+              Esports games like *League of Legends*, *Valorant*, and *Dota 2* have built a global stage, attracting millions of players and viewers. Major tournaments such as *The International* and *Worlds Championship* offer prize pools in the millions.
+              <br>
+              <br>
+              These games showcase high-level strategies, teamwork, and individual skills, making them thrilling for both players and spectators.
+               
+              <div class="main-news-img">
+                <img src="Assets/popgames.png">
+              </div>
+              <p>*Starfield* and *Counter-Strike 2* are among the most anticipated releases this year.</p>
+      
+              <br>
+              Online multiplayer games like *Call of Duty: Warzone*, *Fortnite*, and *Apex Legends* remain crowd favorites, offering fast-paced action and dynamic battle royale modes.
+              <br>
+              Meanwhile, games like *Genshin Impact* and *Honkai: Star Rail* have redefined the RPG genre with their stunning visuals and immersive storylines.
+      
+              <div class="main-news-img">
+                <img src="Assets/gamecommunity.jpg">
+              </div>
+              <p>Communities in games like *Roblox* and *Minecraft* thrive with creativity and collaboration.</p>
+      
+              <br>
+              Mobile games such as *Mobile Legends: Bang Bang* and *Honor of Kings* have revolutionized the gaming scene, particularly in Southeast Asia, by bringing competitive gaming to mobile platforms.
+              <br>
+              <br>
+              These games feature frequent updates, introducing new characters, maps, and challenges to keep players engaged.
+              <br>
+              <br>
+              Whether you’re a fan of intense competitive gaming or exploring expansive open-world games, there’s always something new to discover in the world of online games.
+      
+              <h2>Highlight: Competitive Gaming at Its Peak</h2>
+              
+              <iframe class="video-frame"
+                src="https://www.youtube.com/embed/VYT-T2c_0ZE?playlist=VYT-T2c_0ZE&loop=1&autoplay=1&mute=1">
+            </iframe>
+
+            </span>
+          </div>
+        </div>
+    </section>
+    
+  <footer class="footer-section">
+    <div class="section-content">
+        <p class="copyright-text">© 2024 <span>F</span>AV.COM </p>
+    </div>
+</footer>

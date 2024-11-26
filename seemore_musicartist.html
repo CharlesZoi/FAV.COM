@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAV.COM</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Assets/Fav.com_favicon.png">
+    <link rel="shortcut-icon" href="Assets/Fav.com_favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  </head>
+  <body>
+    <nav class="navigation">
+        <a href="main.html" class="logo">
+            <img src="Assets/fav.com-logow.png" alt="logo" />
+        </a>
+    
+        <div class="nav-btns">
+            <div class="userDropdown">
+                <button onclick="userDropDown()" class="userDropbtn">
+                    <i class="fa-solid fa-user"></i>
+                </button>
+    
+                <div id="userDropdown" class="userDropdown-content">
+                    <div class="dropdown-link-box">
+                        <div class="dropdown-links">
+                            <ul>
+                                <li><button><a href="#">Profile</a></li></button>
+                                <li><button><a href="#">Settings</a></li></button>
+                                <li><button id="logoutBtn" onclick="logout()">Logout</button></li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="news-details">
+        <div class="main-news-text">
+      
+          <span class="category">Favorite Music Artist</span>
+          <strong>Celebrating Iconic Male and Female Artists</strong>
+      
+          <div class="main-news-img">
+            <img src="Assets/femaleartist.jpg">
+          </div>
+          <p>Music brings people together, and these male and female artists have captured hearts worldwide with their talent and artistry.</p>
+      
+          <div class="m-news-text">
+            <span class="m-box-details">
+              Female artists like *Taylor Swift*, *Adele*, and *Beyoncé* are not just singers—they are icons who have shaped the music industry with their distinct styles and powerful performances. Their songs resonate with emotions, inspiring millions.
+              <br>
+              <br>
+              Male artists such as *Ed Sheeran*, *Harry Styles*, and *Drake* have also left an indelible mark on the music world. From heartfelt ballads to chart-topping hits, their music speaks to a diverse audience.
+               
+              <div class="main-news-img">
+                <img src="Assets/maleartist.jpg">
+              </div>
+              <p>Artists like *Ed Sheeran* continue to create songs that transcend genres and touch the soul.</p>
+      
+              <br>
+              Emerging artists like *Olivia Rodrigo* and *The Weeknd* are redefining pop and R&B with fresh sounds and relatable lyrics, proving that the music industry is constantly evolving.
+              <br>
+              <br>
+              Whether it's the powerful anthems of *Lady Gaga* or the timeless tunes of *Elton John*, every generation has its favorite artists who shape the soundtrack of their lives.
+      
+              <div class="main-news-img">
+                <img src="Assets/apt.png">
+              </div>
+              <p>Live performances by these artists leave unforgettable memories for fans across the globe.</p>
+      
+              <br>
+              Streaming platforms have made it easier than ever to explore new music and rediscover classics. With artists constantly pushing boundaries, there’s no limit to what music lovers can experience.
+              <br>
+              <br>
+              From solo acts to collaborative hits, male and female artists alike continue to inspire and entertain with their unique voices and artistry.
+      
+              <h2>Highlight: Discover Your Next Favorite Artist</h2>
+              
+              <iframe class="video-frame"
+                      src="https://www.youtube.com/embed/EcdNK2haVpM?playlist=EcdNK2haVpM&loop=1&autoplay=1&mute=1">
+              </iframe>
+            </span>
+          </div>
+        </div>
+    </section>
+    
+    
+  <footer class="footer-section">
+    <div class="section-content">
+        <p class="copyright-text">© 2024 <span>F</span>AV.COM </p>
+    </div>
+</footer>
